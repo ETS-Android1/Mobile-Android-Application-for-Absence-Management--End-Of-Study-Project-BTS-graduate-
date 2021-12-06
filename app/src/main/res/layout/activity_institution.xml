@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Institution">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0C5C6"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/btnReturnToAcceuil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:src="@drawable/returntoaccueil"
+            />
+        <TextView
+            android:layout_width="45mm"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:textColor="#125896"
+            android:background="#C0C5C6"
+            android:textAlignment="center"
+            android:textSize="6mm"
+            android:layout_margin="1mm"
+            android:text="المؤسسة:ثا.إبن سينا"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3mm"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lycee"
+            android:layout_marginLeft="48mm"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1.5mm"
+        >
+        <TextView
+            android:id="@+id/lblDirectProv"
+            android:layout_width="29mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="المديرية الإقليمية :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="2mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+        <TextView
+            android:id="@+id/lblDirectRegional"
+            android:layout_width="29mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="المديرية الجهوية :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="3mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+        <TextView
+            android:id="@+id/lblSigne"
+            android:layout_width="29mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="الرمز :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="12mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+        <TextView
+            android:id="@+id/lblPhone"
+            android:layout_width="29mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="الهاتف :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="12mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+        <TextView
+            android:id="@+id/lblDirecteur"
+            android:layout_width="29mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="المدير الحالي :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="6mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+        <TextView
+            android:id="@+id/lblPosition"
+            android:layout_width="29mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="الموقع :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="12mm"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/BtnActivateAppar"
+        android:layout_width="50mm"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="#DFB744"
+        android:layout_margin="4mm"
+        android:text="تفعيل الإنتماء"
+        android:textSize="4mm"
+        />
+
+</LinearLayout>

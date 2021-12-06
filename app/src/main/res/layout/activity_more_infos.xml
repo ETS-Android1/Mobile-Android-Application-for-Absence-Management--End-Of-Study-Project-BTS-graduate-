@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MoreInfos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0C5C6"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/btnReturnToAcceuil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:src="@drawable/returntoaccueil"
+            />
+        <TextView
+            android:layout_width="45mm"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:textColor="#125896"
+            android:background="#C0C5C6"
+            android:textAlignment="center"
+            android:textSize="6mm"
+            android:layout_margin="1mm"
+            android:text="معلومات إضافية"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8mm"
+        >
+        <EditText
+            android:id="@+id/txtDoti"
+            android:layout_width="29mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+
+            />
+        <TextView
+            android:id="@+id/lblDoti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="رقم التأجير :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="8mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+        <EditText
+            android:id="@+id/txtSpecialite"
+            android:layout_width="29mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+
+            />
+        <TextView
+            android:id="@+id/lblSpecialite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="التخصص :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="8mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+        <EditText
+            android:id="@+id/txtMatEtu"
+            android:layout_width="29mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+
+            />
+        <TextView
+            android:id="@+id/lblMatEtu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="المواد المدرسة :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="6mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+        <EditText
+            android:id="@+id/txtLastCertUni"
+            android:layout_width="29mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+
+            />
+        <TextView
+            android:id="@+id/lblLastCertUni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="آخر شهادة جامعية :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="2mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+        <EditText
+            android:id="@+id/txtLastCertPro"
+            android:layout_width="29mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+
+            />
+        <TextView
+            android:id="@+id/lblLastCertPro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="آخر شهادة مهنية :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="3mm"
+            />
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/BtnCloseMoreInfos"
+            android:layout_width="50mm"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12mm"
+            android:background="#DFB744"
+            android:textSize="4mm"
+            android:text="غلق"
+            />
+
+
+</LinearLayout>

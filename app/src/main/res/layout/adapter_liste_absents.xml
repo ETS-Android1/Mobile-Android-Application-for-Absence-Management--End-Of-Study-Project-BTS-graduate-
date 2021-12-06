@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        android:layout_gravity="center"
+        >
+
+        <CheckBox
+            android:id="@+id/checkboxAbsent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1mm"
+            android:checked="false" />
+        <Button
+            android:id="@+id/btnNomPrenomAbsent"
+            android:layout_width="40mm"
+            android:layout_height="wrap_content"
+            android:layout_margin="1mm"
+            android:text="محمد أمين مخايبو"
+            />
+        <ImageButton
+            android:id="@+id/btnImgAbsent"
+            android:layout_width="8mm"
+            android:layout_height="7.5mm"
+            android:src="@drawable/mepng"
+            android:layout_marginLeft="1mm"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    </LinearLayout>

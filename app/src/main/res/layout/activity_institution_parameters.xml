@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InstitutionParameters">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0C5C6"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/btnReturnToAcceuil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:src="@drawable/returntoaccueil"
+            />
+        <TextView
+            android:layout_width="45mm"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:textColor="#125896"
+            android:background="#C0C5C6"
+            android:textAlignment="center"
+            android:textSize="6mm"
+            android:layout_margin="1mm"
+            android:text="إعدادات المؤسسة"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="إضغط على المؤسسة التي تنتمي إليها"
+        android:textSize="4mm"
+        android:layout_margin="2mm"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ListView
+           android:id="@+id/list_view_instParam"
+           android:layout_width="match_parent"
+           android:layout_height="60mm"
+           android:gravity="center"
+           >
+            <!-- <Button
+                 android:id="@+id/btnIbnSina"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="1mm"
+                 android:text="ثانوية إبن سينا"
+                 />
+             <Button
+                 android:id="@+id/btnIbnBatouta"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="1mm"
+                 android:text="ثانوية إبن بطوطة"
+                 />
+         <Button
+             android:id="@+id/btnOth1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="1mm"
+             android:text=" ****ثانوية "
+             />
+         <Button
+             android:id="@+id/btnOth2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="1mm"
+             android:text=" ****ثانوية "
+             />
+         <Button
+             android:id="@+id/btnOth3"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="1mm"
+             android:text=" ****ثانوية "
+             />
+         <Button
+             android:id="@+id/btnOth4"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="1mm"
+             android:text=" ****ثانوية "
+             />
+                 <Button
+                     android:id="@+id/btnOth5"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_margin="1mm"
+                     android:text=" ****ثانوية "
+                     />
+                 <Button
+                     android:id="@+id/btnOth6"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_margin="1mm"
+                     android:text=" test scrolling "
+                     />-->
+           </ListView>
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+

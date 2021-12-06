@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Update_novelty">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0C5C6"
+        android:orientation="horizontal"
+        android:layout_marginBottom="4mm"
+        >
+        <ImageButton
+            android:id="@+id/btnReturnToAcceuil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:src="@drawable/returntoaccueil"
+            />
+        <TextView
+            android:layout_width="45mm"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:textColor="#125896"
+            android:background="#C0C5C6"
+            android:textAlignment="center"
+            android:textSize="6mm"
+            android:layout_margin="1mm"
+            android:text="تعديل مستجد"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="تعديل نص المستجد :"
+        android:textSize="3.5mm"
+        android:layout_marginLeft="14mm"
+        />
+
+    <EditText
+        android:id="@+id/txtEditNovUpd"
+        android:layout_width="match_parent"
+        android:layout_height="20mm"
+        android:layout_margin="2mm"
+        android:background="#D4E5E3"
+        android:text="فرض محروس في مادةTransact SQL بتاريخ:02/05/2018؛مشاركة:ذ.حميد"
+        android:textAlignment="center"
+        android:textSize="3.5mm" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+
+        <EditText
+            android:id="@+id/txtShareNovUpd"
+            android:layout_width="35mm"
+            android:layout_height="wrap_content"
+            android:layout_margin="1mm"
+            android:background="#D4E5E3"
+            android:hint="تلاميذ محددين/قسم محدد/أقسامي فقط/الكل"
+            android:text="BTS DSI 1"
+            android:textAlignment="center"
+            android:textSize="2.5mm" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="مشترك مع :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="4mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+
+        <EditText
+            android:id="@+id/txtCommentNovUpd"
+            android:layout_width="35mm"
+            android:layout_height="wrap_content"
+            android:layout_margin="1mm"
+            android:background="#D4E5E3"
+            android:hint="لا/نعم"
+            android:text="نعم"
+            android:textAlignment="center"
+            android:textSize="2.5mm" />
+        <TextView
+            android:id="@+id/lblSpecialite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="التعليق مسموح :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="0mm"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BtnUpdNov"
+        android:layout_width="40mm"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8mm"
+        android:background="#DFB744"
+        android:text="تغيير"
+        android:textSize="3mm" />
+
+    <Button
+        android:id="@+id/BtnDeleteNov"
+        android:layout_width="40mm"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="1mm"
+        android:background="#DFB744"
+        android:text="حذف"
+        android:textSize="3mm" />
+
+</LinearLayout>

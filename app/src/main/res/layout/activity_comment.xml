@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Comment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0C5C6"
+        android:orientation="horizontal"
+        android:layout_marginBottom="7mm"
+        >
+        <ImageButton
+            android:id="@+id/btnReturnToAcceuil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:src="@drawable/returntoaccueil"
+            />
+        <TextView
+            android:layout_width="45mm"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:textColor="#125896"
+            android:background="#C0C5C6"
+            android:textAlignment="center"
+            android:textSize="5.5mm"
+            android:layout_margin="1mm"
+            android:text="تعليق"
+            />
+
+    </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtEditComment"
+            android:layout_width="match_parent"
+            android:layout_height="55mm"
+            android:layout_margin="2mm"
+            android:background="#D4E5E3"
+            android:hint="(نص التعليق)"
+            android:textAlignment="center"
+            android:textSize="3.5mm" />
+
+
+
+    <Button
+        android:id="@+id/BtnConfirmComm"
+        android:layout_width="50mm"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2mm"
+        android:background="#DFB744"
+        android:text="تأكيد"
+        android:textSize="4mm" />
+</LinearLayout>

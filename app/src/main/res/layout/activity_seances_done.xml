@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SeancesDone">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0C5C6"
+        android:orientation="horizontal"
+        android:layout_marginBottom="2mm"
+        >
+        <ImageButton
+            android:id="@+id/btnReturnToAcceuil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:src="@drawable/returntoaccueil"
+            />
+        <TextView
+            android:layout_width="45mm"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:textColor="#125896"
+            android:background="#C0C5C6"
+            android:textAlignment="center"
+            android:textSize="6mm"
+            android:layout_margin="1mm"
+            android:text="الحصص المنجزة"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1.5mm"
+        >
+
+        <EditText
+            android:id="@+id/txtSpecification"
+            android:layout_width="35mm"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:background="#D4E5E3"
+            android:hint="الحصة العامة/القسم"
+            android:textAlignment="center"
+            android:textSize="3.5mm" />
+        <TextView
+            android:id="@+id/lblDirectProv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="تصنيف حسب :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="1mm"
+            />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ListView
+                android:id="@+id/list_view_seancesDone"
+                android:layout_width="match_parent"
+                android:layout_height="50mm"
+                android:gravity="center"
+                >
+            <!--<Button
+                android:id="@+id/btnN33_16_05_18"
+                android:layout_width="50mm"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6mm"
+                android:text="N°33   16/05/2018"
+
+                />
+            <Button
+                android:id="@+id/btnN32_09_05_18"
+                android:layout_width="50mm"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_margin="0.5mm"
+                android:text="N°32   09/05/2018"
+                />
+            <Button
+                android:id="@+id/btnN31_02_05_18"
+                android:layout_width="50mm"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_margin="0.5mm"
+                android:text="N°31   02/05/2018"
+                />
+            <Button
+                android:id="@+id/btnN30_-_-_18"
+                android:layout_width="50mm"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_margin="0.5mm"
+                android:text="N°30   -_-_2018"
+                />-->
+           </ListView>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/BtnPrint"
+        android:layout_width="50mm"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4mm"
+        android:background="#DFB744"
+        android:text="طبع"
+        android:textSize="4mm" />
+</LinearLayout>

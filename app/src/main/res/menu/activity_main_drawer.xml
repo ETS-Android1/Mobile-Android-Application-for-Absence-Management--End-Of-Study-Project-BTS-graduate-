@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myAccount"
+            android:icon="@drawable/ic_person_black"
+            android:title="الإسم و النسب" />
+        <item
+            android:id="@+id/nav_instParam"
+            android:icon="@drawable/ic_institution_black"
+            android:title="المؤسسة ..." />
+        <item
+            android:id="@+id/nav_novelties"
+            android:icon="@drawable/ic_novelties_black"
+            android:title="المستجدات ..." />
+        <item
+            android:id="@+id/nav_emploiTemps"
+            android:icon="@drawable/ic_schedule_black"
+            android:title="تدبير الحصص ..." />
+        <item
+            android:id="@+id/nav_seanDone"
+            android:icon="@drawable/ic_cahier_texte_black"
+            android:title="دفتر النصوص ..." />
+        <item
+            android:id="@+id/nav_auth"
+            android:icon="@drawable/ic_exit_to_app_black"
+            android:title="تسجيل الخروج" />
+    </group>
+
+</menu>

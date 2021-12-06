@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Accueil">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#C0C5C6"
+    android:orientation="horizontal"
+    >
+    <ImageButton
+        android:id="@+id/btnReturnToAcceuil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1mm"
+        android:src="@drawable/returntoaccueil"
+        />
+    <TextView
+        android:id="@+id/txtRech"
+        android:layout_width="45mm"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2mm"
+        android:textSize="3mm"
+        android:hint="...بحث..."
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1mm"
+        android:src="@drawable/search"
+        />
+</LinearLayout>
+    <RelativeLayout
+        android:layout_width="47mm"
+        android:layout_height="60mm"
+        android:layout_marginTop="8mm"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:id="@+id/btnFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="#D4E5E3"
+            android:textSize="4mm"
+            android:hint="الإسم و النسب"
+            />
+        <Button
+            android:id="@+id/btnInstitution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2mm"
+            android:textAlignment="center"
+            android:background="#D4E5E3"
+            android:textSize="4mm"
+            android:hint="المؤسسة ..."
+            android:layout_below="@id/btnFullName"
+            />
+        <Button
+            android:id="@+id/btnNouveautes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2mm"
+            android:textAlignment="center"
+            android:background="#D4E5E3"
+            android:textSize="4mm"
+            android:hint="المستجدات ..."
+            android:layout_below="@id/btnInstitution"
+            />
+        <Button
+            android:id="@+id/btnGestSeances"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2mm"
+            android:textAlignment="center"
+            android:background="#D4E5E3"
+            android:textSize="4mm"
+            android:hint="تدبير الحصص ..."
+            android:layout_below="@+id/btnNouveautes"
+            />
+        <Button
+            android:id="@+id/btnCahierTexte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2mm"
+            android:textAlignment="center"
+            android:background="#D4E5E3"
+            android:textSize="4mm"
+            android:hint="دفتر النصوص ..."
+            android:layout_below="@id/btnGestSeances"
+            />
+        <Button
+            android:id="@+id/btnAccOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2mm"
+            android:textAlignment="center"
+            android:background="#D4E5E3"
+            android:textSize="4mm"
+            android:hint="تسجيل الخروج"
+            android:layout_below="@id/btnCahierTexte"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

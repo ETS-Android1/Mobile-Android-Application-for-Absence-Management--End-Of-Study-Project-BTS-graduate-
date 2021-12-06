@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewNovelty">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0C5C6"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/btnReturnToAcceuil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:src="@drawable/returntoaccueil"
+            />
+        <TextView
+            android:layout_width="45mm"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:textColor="#125896"
+            android:background="#C0C5C6"
+            android:textAlignment="center"
+            android:textSize="6mm"
+            android:layout_margin="1mm"
+            android:text="تحرير مستجد"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3mm"
+        >
+        <EditText
+            android:id="@+id/txtShare"
+            android:layout_width="40mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+            android:hint="تلاميذ محددين/قسم محدد/أقسامي فقط/الكل"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="مشترك مع :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="1mm"
+            />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/txtShare1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D4E5E3"
+        android:layout_margin="1mm"
+        android:textSize="3.5mm"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+        <EditText
+            android:id="@+id/txtCommentPerm"
+            android:layout_width="29mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+            android:hint="لا/نعم"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id="@+id/lblSpecialite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="التعليق مسموح :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="4mm"
+            />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/txtEditNovelty"
+        android:layout_width="match_parent"
+        android:layout_height="20mm"
+        android:background="#D4E5E3"
+        android:layout_margin="1.5mm"
+        android:textSize="3.5mm"
+        android:hint="نص المستجد"
+        android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/BtnConfirmNov"
+        android:layout_width="50mm"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2mm"
+        android:background="#DFB744"
+        android:textSize="4mm"
+        android:text="تأكيد"
+        />
+    <Button
+        android:id="@+id/BtnCloseNov"
+        android:layout_width="50mm"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2mm"
+        android:background="#DFB744"
+        android:textSize="4mm"
+        android:text="غلق"
+        />
+</LinearLayout>

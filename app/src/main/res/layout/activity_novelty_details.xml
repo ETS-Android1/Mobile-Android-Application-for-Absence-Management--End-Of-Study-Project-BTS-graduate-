@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NoveltyDetails">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0C5C6"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/btnReturnToAcceuil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:src="@drawable/returntoaccueil"
+            />
+        <TextView
+            android:layout_width="45mm"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:textColor="#125896"
+            android:background="#C0C5C6"
+            android:textAlignment="center"
+            android:textSize="6mm"
+            android:layout_margin="1mm"
+            android:text="تفاصيل المستجد"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/lblTxtNovDet"
+        android:layout_width="match_parent"
+        android:layout_height="20mm"
+        android:layout_margin="2mm"
+        android:background="#D4E5E3"
+        android:text="فرض محروس في مادةTransact SQL بتاريخ:02/05/2018؛مشاركة:ذ.حميد"
+        android:textAlignment="center"
+        android:textSize="3.5mm"
+
+        />
+
+
+    <Button
+        android:id="@+id/BtnUpdateNovDet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1mm"
+        android:text="تغيير" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="التعليقات :"
+        android:textSize="3.5mm"
+        android:layout_marginLeft="20mm"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ListView
+                android:id="@+id/list_view_noveltyDetails"
+                android:layout_width="match_parent"
+                android:layout_height="25mm"
+                android:gravity="center"
+                >
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+
+        <TextView
+            android:id="@+id/lblCommNov1"
+            android:layout_width="36mm"
+            android:layout_height="wrap_content"
+            android:layout_margin="1mm"
+            android:background="#D4E5E3"
+            android:text="Est-ce que la documentation est autorisée ?"
+            android:textAlignment="center"
+            android:textSize="2.5mm" />
+
+        <Button
+            android:id="@+id/btnCommPer1"
+            android:layout_width="match_parent"
+            android:layout_height="7.5mm"
+            android:layout_gravity="center"
+            android:layout_marginLeft="1mm"
+            android:background="#D2CD32"
+            android:text="محمد أمين مخايبو"
+            android:textSize="3mm" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+
+        <TextView
+            android:id="@+id/lblCommNov2"
+            android:layout_width="36mm"
+            android:layout_height="wrap_content"
+            android:layout_margin="1mm"
+            android:background="#D4E5E3"
+            android:text="xxxxxxxxxxxxx"
+            android:textAlignment="center"
+            android:textSize="2.5mm" />
+
+        <Button
+            android:id="@+id/btnCommPer2"
+            android:layout_width="match_parent"
+            android:layout_height="7.5mm"
+            android:layout_gravity="center"
+            android:layout_marginLeft="1mm"
+            android:background="#D2CD32"
+            android:text="xxxxxxxxxxx"
+            android:textSize="3mm" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+
+        <TextView
+            android:id="@+id/lblCommNov3"
+            android:layout_width="36mm"
+            android:layout_height="wrap_content"
+            android:layout_margin="1mm"
+            android:background="#D4E5E3"
+            android:text="xxxxxxxxxxxxx"
+            android:textAlignment="center"
+            android:textSize="2.5mm" />
+
+        <Button
+            android:id="@+id/btnCommPer3"
+            android:layout_width="match_parent"
+            android:layout_height="7.5mm"
+            android:layout_gravity="center"
+            android:layout_marginLeft="1mm"
+            android:background="#D2CD32"
+            android:text="xxxxxxxxxxx"
+            android:textSize="3mm" />
+    </LinearLayout>-->
+         </ListView>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/BtnAddComment"
+        android:layout_width="40mm"
+        android:layout_height="5.5mm"
+        android:layout_gravity="center"
+        android:layout_marginTop="2mm"
+        android:background="#DFB744"
+        android:text="إضافة تعليق"
+        android:textSize="3mm" />
+    <Button
+        android:id="@+id/BtnCloseNov"
+        android:layout_width="40mm"
+        android:layout_height="5.5mm"
+        android:layout_gravity="center"
+        android:layout_marginTop="1mm"
+        android:background="#DFB744"
+        android:textSize="3mm"
+        android:text="غلق"
+        />
+</LinearLayout>

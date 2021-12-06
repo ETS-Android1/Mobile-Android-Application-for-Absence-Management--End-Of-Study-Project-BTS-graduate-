@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".ActivateAppartenance">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2mm"
+        android:textColor="#125896"
+        android:background="#C0C5C6"
+        android:textAlignment="center"
+        android:textSize="6mm"
+        android:layout_margin="1mm"
+        android:text="تفعيل الإنتماء"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_margin="4mm"
+        android:textSize="4mm"
+        android:hint="المرجو إدخال القن السري الذي حصلت عليه من مؤسسة :"
+        />
+    <TextView
+        android:id="@+id/txtLycee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="#D4E5E3"
+        android:textSize="4mm"
+        android:hint="(ثانوية إبن سينا)"
+        />
+    <EditText
+        android:id="@+id/txtCodeSecret"
+        android:layout_width="42mm"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15mm"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="#D4E5E3"
+        android:textSize="4mm"
+        android:hint="القن السري"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/BtnActivateAppar1"
+        android:layout_width="32mm"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2mm"
+        android:layout_gravity="center"
+        android:background="#DFB744"
+        android:text="تفعيل"
+        android:textSize="4mm"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>

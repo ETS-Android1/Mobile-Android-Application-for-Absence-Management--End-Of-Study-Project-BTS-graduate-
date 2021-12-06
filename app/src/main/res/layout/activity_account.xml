@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Account">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+   here RelativeLayout
+</ScrollView> -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0C5C6"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/btnReturnToAcceuil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:src="@drawable/returntoaccueil"
+            />
+        <TextView
+            android:layout_width="45mm"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:textColor="#125896"
+            android:background="#C0C5C6"
+            android:textAlignment="center"
+            android:textSize="6mm"
+            android:layout_margin="1mm"
+            android:text="حسابي"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3mm"
+        >
+        <Button
+        android:id="@+id/btnAccSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1mm"
+        android:text="حفظ"
+        />
+        <Button
+            android:id="@+id/btnAccUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1mm"
+            android:text="تغيير"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/personnel"
+            android:layout_marginLeft="16mm"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1.5mm"
+        >
+        <EditText
+            android:id="@+id/txtPrenomAR"
+            android:layout_width="29mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+
+            />
+        <TextView
+            android:id="@+id/lblPrenomAR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="الإسم الشخصي :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="4.5mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+        <EditText
+            android:id="@+id/txtNomAR"
+            android:layout_width="29mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+
+            />
+        <TextView
+            android:id="@+id/lblNomAR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="الإسم العائلي :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="6.5mm"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="1mm"
+    >
+    <TextView
+        android:id="@+id/lblNomFR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Nom :"
+        android:textSize="3.5mm"
+        android:layout_marginLeft="4mm"
+        />
+    <EditText
+        android:id="@+id/txtNomFR"
+        android:layout_width="30mm"
+        android:layout_height="wrap_content"
+        android:background="#D4E5E3"
+        android:layout_marginLeft="11.5mm"
+        android:textSize="3.5mm"
+
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+        <TextView
+            android:id="@+id/lblPreomFR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Prénom :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="4mm"
+            />
+        <EditText
+            android:id="@+id/txtPreomFR"
+            android:layout_width="30mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_marginLeft="6.5mm"
+            android:textSize="3.5mm"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1.5mm"
+        >
+        <EditText
+            android:id="@+id/txtDtNaiss"
+            android:layout_width="29mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+
+            />
+        <TextView
+            android:id="@+id/lblDtNaiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="تاريخ الإزدياد :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="4.5mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1.5mm"
+        >
+        <EditText
+            android:id="@+id/txtTlf"
+            android:layout_width="29mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+
+            />
+        <TextView
+            android:id="@+id/lblTlf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="الهاتف :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="8mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1.5mm"
+        >
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="29mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+
+            />
+        <TextView
+            android:id="@+id/lblEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="البريد الإلكتروني :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="4.5mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1.5mm"
+        >
+        <Button
+            android:id="@+id/BtnMoreInfos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1mm"
+            android:text="معطيات إظافية"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

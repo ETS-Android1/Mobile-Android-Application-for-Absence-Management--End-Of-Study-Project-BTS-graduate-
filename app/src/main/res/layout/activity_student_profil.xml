@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StudentProfil">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0C5C6"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/btnReturnToAcceuil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:src="@drawable/returntoaccueil"
+            />
+        <TextView
+            android:layout_width="45mm"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:textColor="#125896"
+            android:background="#C0C5C6"
+            android:textAlignment="center"
+            android:textSize="4mm"
+            android:layout_margin="1mm"
+            android:text="بروفايل(محمد أمين مخايبو)"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3mm"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mepng"
+            android:layout_marginLeft="48mm"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1.5mm"
+        >
+        <TextView
+            android:id="@+id/lblStdFullName"
+            android:layout_width="35mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+            android:textAlignment="center"
+            android:text="محمد أمين مخايبو"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="الإسم الكامل :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="2mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+        <TextView
+            android:id="@+id/lblStdClasse"
+            android:layout_width="35mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+            android:textAlignment="center"
+            android:text="BTS DSI 2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="القسم :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="8mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+        <TextView
+            android:id="@+id/lblStdNumClass"
+            android:layout_width="35mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+            android:textAlignment="center"
+            android:text="11"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="الرقم في القسم :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="0mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+        <TextView
+            android:id="@+id/lblStdMassar"
+            android:layout_width="35mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+            android:textAlignment="center"
+            android:text="E13012778"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="رقم مسار :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="5mm"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BtnCloseStdProfile"
+        android:layout_width="40mm"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="#DFB744"
+        android:layout_marginTop="12mm"
+        android:text="غلق"
+        android:textSize="4mm"
+        />
+</LinearLayout>

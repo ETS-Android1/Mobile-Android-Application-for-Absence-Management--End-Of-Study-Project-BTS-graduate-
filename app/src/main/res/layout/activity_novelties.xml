@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Novelties">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0C5C6"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/btnReturnToAcceuil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:src="@drawable/returntoaccueil"
+            />
+        <TextView
+            android:layout_width="45mm"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:textColor="#125896"
+            android:background="#C0C5C6"
+            android:textAlignment="center"
+            android:textSize="6mm"
+            android:layout_margin="1mm"
+            android:text="مستجدات"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+           <ListView
+           android:id="@+id/list_view_novelties"
+           android:layout_width="match_parent"
+           android:layout_height="60mm"
+           android:gravity="center"
+           >
+            <!--<Button
+                android:id="@+id/btnNv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1mm"
+                android:text="فرض محروس في مادةTransact SQL بتاريخ:02/05/2018؛مشاركة:ذ.حميد"
+                />
+            <Button
+                android:id="@+id/btnNv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1mm"
+                android:textAlignment="center"
+                android:text="الأستاذ*جمال أقبلي* في رخصة مرضية من 12/02/2018 إلى 15/02/2018؛مشاركة:الإدارة"
+                />
+            <Button
+                android:id="@+id/btnNv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1mm"
+                android:text=" ******* "
+                />
+            <Button
+                android:id="@+id/btnNv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1mm"
+                android:text=" ******** "
+                />
+            <Button
+                android:id="@+id/btnNv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1mm"
+                android:text=" ******* "
+                />
+            <Button
+                android:id="@+id/btnNv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1mm"
+                android:text=" ******* "
+                />-->
+             </ListView>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/BtnNewNovelty"
+        android:layout_width="40mm"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="#DFB744"
+        android:layout_marginTop="6mm"
+        android:text="إضافة مستجد"
+        android:textSize="4mm"
+        />
+</LinearLayout>

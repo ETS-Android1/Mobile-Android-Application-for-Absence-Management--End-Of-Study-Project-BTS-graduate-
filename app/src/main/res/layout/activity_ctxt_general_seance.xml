@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CTxtGeneralSeance">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0C5C6"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/btnReturnToAcceuil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:src="@drawable/returntoaccueil"
+            />
+        <TextView
+            android:layout_width="45mm"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:textColor="#125896"
+            android:background="#C0C5C6"
+            android:textAlignment="center"
+            android:textSize="5.5mm"
+            android:layout_margin="1mm"
+            android:text="حصة عامة : M06"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="تفاصيل الحصة العامة :"
+        android:textSize="3.5mm"
+        android:layout_marginTop="4mm"
+        />
+
+    <TextView
+        android:id="@+id/txtSeanceDetail1"
+        android:layout_width="match_parent"
+        android:layout_height="15mm"
+        android:background="#D4E5E3"
+        android:layout_margin="1.5mm"
+        android:textSize="3.5mm"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="الحصص المنجزة :"
+        android:textSize="3.5mm"
+        android:layout_marginTop="1.5mm"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <ListView
+       android:id="@+id/list_view_ctxt_GS"
+       android:layout_width="match_parent"
+       android:layout_height="33mm"
+       android:layout_gravity="center"
+       >
+        <!--<TextView
+            android:layout_width="40mm"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:text="N°33   16/05/2018"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="3mm"
+            android:background="#91C4BD"
+            />
+        <TextView
+            android:layout_width="40mm"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:text="N°32   09/05/2018"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="3mm"
+            android:background="#91C4BD"
+            />
+        <TextView
+            android:layout_width="40mm"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:text="N°31   02/05/2018"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="3mm"
+            android:background="#91C4BD"
+            />
+        <TextView
+            android:layout_width="40mm"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:text="N°30   -_-_2018"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="3mm"
+            android:background="#91C4BD"
+            />-->
+        </ListView>
+    </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/btnReturnToSceDone"
+        android:layout_width="50mm"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="#DFB744"
+        android:layout_margin="4mm"
+        android:text="الرجوع"
+        android:textSize="4mm"
+        />
+
+</LinearLayout>

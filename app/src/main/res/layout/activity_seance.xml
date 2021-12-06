@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Seance">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0C5C6"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/btnReturnToAcceuil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.5mm"
+            android:src="@drawable/returntoaccueil"
+            />
+        <TextView
+            android:layout_width="45mm"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:textColor="#125896"
+            android:background="#C0C5C6"
+            android:textAlignment="center"
+            android:textSize="6mm"
+            android:layout_margin="1mm"
+            android:text="حصة رقم: ..."
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3mm"
+        >
+        <TextView
+            android:id="@+id/lblClasse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:text="BTS DSI 1 "
+            android:background="#D4E5E3"
+            android:textSize="4mm"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:textSize="3.5mm"
+            android:text="القسم:"
+            />
+        <TextView
+            android:id="@+id/lblMatiere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6mm"
+            android:text="M06 "
+            android:background="#D4E5E3"
+            android:textSize="4mm"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="في مادة:"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="2mm"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1.5mm"
+        >
+        <TextView
+            android:id="@+id/lblDate"
+            android:layout_width="35mm"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="#D4E5E3"
+            android:layout_margin="1.5mm"
+            android:textSize="3.5mm"
+            android:text="Date du système"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="التاريخ :"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="8mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3mm"
+        >
+        <TextView
+            android:id="@+id/lblHeureF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10mm"
+            android:text="16:00 "
+            android:background="#D4E5E3"
+            android:textSize="4mm"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2mm"
+            android:textSize="3.5mm"
+            android:text="إلى:"
+            />
+        <TextView
+            android:id="@+id/lblHeureD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10mm"
+            android:text="14:00 "
+            android:background="#D4E5E3"
+            android:textSize="4mm"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="من:"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="2mm"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+        <EditText
+            android:id="@+id/lblKindSeance"
+            android:layout_width="40mm"
+            android:layout_height="wrap_content"
+            android:background="#D4E5E3"
+            android:layout_margin="1mm"
+            android:textSize="3.5mm"
+            android:textAlignment="center"
+            android:hint="تقويم.../تمارين تطبيقية/درس"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="نوعية الحصة:"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="0mm"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="مخطط الحصة :"
+        android:textSize="3.5mm"
+        android:layout_marginTop="1mm"
+        />
+
+    <EditText
+        android:id="@+id/txtDoti"
+        android:layout_width="match_parent"
+        android:layout_height="12mm"
+        android:background="#D4E5E3"
+        android:layout_margin="1.5mm"
+        android:textSize="3.5mm"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1mm"
+        >
+        <TextView
+            android:id="@+id/lblAbsents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30mm"
+            android:text="3 "
+            android:background="#D4E5E3"
+            android:textSize="4mm"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="عدد الغائبين:"
+            android:textSize="3.5mm"
+            android:layout_marginLeft="2mm"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/BtnAbsents"
+        android:layout_width="50mm"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="1mm"
+        android:background="#DFB744"
+        android:textSize="3.5mm"
+        android:text="الغائبون ..."
+        />
+    <Button
+        android:id="@+id/BtnSaveSeance"
+        android:layout_width="50mm"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="1mm"
+        android:background="#DFB744"
+        android:textSize="3.5mm"
+        android:text="حفظ"
+        />
+</LinearLayout>
